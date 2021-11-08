@@ -105,7 +105,7 @@ class Youth():
         # update if needed
         if self.course_need_update:
             if not self.course.update(self.headers):
-                return 1
+                return 0
             self.course_need_update = False
         # study
         r = requests.get(url=self.course.study_url % self.org_id, headers=self.headers, timeout=5)
