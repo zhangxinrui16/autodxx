@@ -1,3 +1,24 @@
+# Github Actions Version of Automatic QNDXX
+
+## Instructions
+
+1. Clone this repository.
+2. Create github secrets (Settings --> Secrets --> New Repository secret):
+   * USERNAME: your account username (phone number). Visit [here](https://m.bjyouth.net/site/login) to retrieve.
+   * PASSWORD: your account password.
+   * ORG_ID: your organization id. Visit [here](https://m.bjyouth.net/qndxx/index.html#/pages/home/my) to retrieve.
+
+3. Edit `.github/workflow/main.yml`.
+   * by default it runs at 16:50 on every Sunday, change `cron` if you want to run at a different time.
+
+4. Enable workflow for this repository in Actions.
+
+---
+
+
+
+### [Original ReadMe](https://github.com/ouyen/qndxx-beijing):
+
 # Automatic completion the QNDXX in Beijing
 
 ## Instructions
