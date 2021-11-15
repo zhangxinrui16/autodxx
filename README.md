@@ -9,7 +9,7 @@
    * ORG_ID: your organization id. Visit [here](https://m.bjyouth.net/qndxx/index.html#/pages/home/my) to retrieve.
 
 3. Edit `.github/workflow/main.yml`.
-   * by default it runs at 16:50 on every Sunday, change `cron` if you want to run at a different time.
+   * by default it runs at 16:50 on every Saturday, change `cron` if you want to run at a different time.
 
 4. Enable workflow for this repository in Actions.
 
