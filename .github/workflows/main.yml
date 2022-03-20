@@ -2,7 +2,7 @@ name: AutoQNDXX
 
 on:
   schedule:
-    - cron: '50 3 * * 5'
+    - cron: '0 4 * * 2,5'
     
   workflow_dispatch:
 
